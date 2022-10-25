@@ -13,6 +13,17 @@
 		B787354D28C7A81400EEED13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B787354B28C7A81400EEED13 /* Main.storyboard */; };
 		B787354F28C7A81600EEED13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B787354E28C7A81600EEED13 /* Assets.xcassets */; };
 		B787355228C7A81600EEED13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B787355028C7A81600EEED13 /* LaunchScreen.storyboard */; };
+		B787355B28C7AAEA00EEED13 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = B787355A28C7AAEA00EEED13 /* Alamofire */; };
+		B787355E28C7B0B400EEED13 /* Coder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B787355D28C7B0B400EEED13 /* Coder.swift */; };
+		B787356028C7B0E000EEED13 /* RestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B787355F28C7B0E000EEED13 /* RestManager.swift */; };
+		B787356228C7CCFE00EEED13 /* CombineRestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B787356128C7CCFE00EEED13 /* CombineRestManager.swift */; };
+		B78CB5A428C80C4200EFE3FC /* CombineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78CB5A328C80C4200EFE3FC /* CombineViewController.swift */; };
+		B78CB5A628C80CA600EFE3FC /* CombineStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B78CB5A528C80CA600EFE3FC /* CombineStoryboard.storyboard */; };
+		B78CB5A928C8513000EFE3FC /* WithouStoryBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78CB5A828C8513000EFE3FC /* WithouStoryBoardViewController.swift */; };
+		B793E86D28D63E5F00F1E611 /* TextFieldCombineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B793E86B28D63E5F00F1E611 /* TextFieldCombineViewController.swift */; };
+		B793E86E28D63E5F00F1E611 /* TextFieldCombineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B793E86C28D63E5F00F1E611 /* TextFieldCombineViewController.xib */; };
+		B793E87128D6428400F1E611 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B793E87028D6428400F1E611 /* UIButton.swift */; };
+		B7BF834428FE35EA00AEEDDE /* StackViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BF834328FE35EA00AEEDDE /* StackViewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +35,16 @@
 		B787354E28C7A81600EEED13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B787355128C7A81600EEED13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B787355328C7A81600EEED13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B787355D28C7B0B400EEED13 /* Coder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coder.swift; sourceTree = "<group>"; };
+		B787355F28C7B0E000EEED13 /* RestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestManager.swift; sourceTree = "<group>"; };
+		B787356128C7CCFE00EEED13 /* CombineRestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineRestManager.swift; sourceTree = "<group>"; };
+		B78CB5A328C80C4200EFE3FC /* CombineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineViewController.swift; sourceTree = "<group>"; };
+		B78CB5A528C80CA600EFE3FC /* CombineStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CombineStoryboard.storyboard; sourceTree = "<group>"; };
+		B78CB5A828C8513000EFE3FC /* WithouStoryBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithouStoryBoardViewController.swift; sourceTree = "<group>"; };
+		B793E86B28D63E5F00F1E611 /* TextFieldCombineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCombineViewController.swift; sourceTree = "<group>"; };
+		B793E86C28D63E5F00F1E611 /* TextFieldCombineViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextFieldCombineViewController.xib; sourceTree = "<group>"; };
+		B793E87028D6428400F1E611 /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		B7BF834328FE35EA00AEEDDE /* StackViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B787355B28C7AAEA00EEED13 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +78,9 @@
 		B787354428C7A81400EEED13 /* iOsdemos */ = {
 			isa = PBXGroup;
 			children = (
+				B793E86F28D6427100F1E611 /* Extensions */,
+				B78CB5A128C80C1500EFE3FC /* Demos */,
+				B787355C28C7B09F00EEED13 /* Utils */,
 				B787354528C7A81400EEED13 /* AppDelegate.swift */,
 				B787354728C7A81400EEED13 /* SceneDelegate.swift */,
 				B787354928C7A81400EEED13 /* ViewController.swift */,
@@ -65,6 +90,77 @@
 				B787355328C7A81600EEED13 /* Info.plist */,
 			);
 			path = iOsdemos;
+			sourceTree = "<group>";
+		};
+		B787355C28C7B09F00EEED13 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B787355F28C7B0E000EEED13 /* RestManager.swift */,
+				B787355D28C7B0B400EEED13 /* Coder.swift */,
+				B787356128C7CCFE00EEED13 /* CombineRestManager.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B78CB5A128C80C1500EFE3FC /* Demos */ = {
+			isa = PBXGroup;
+			children = (
+				B7BF834228FE35B800AEEDDE /* UIStackView */,
+				B793E86928D63E0300F1E611 /* UITextField */,
+				B78CB5A728C850E400EFE3FC /* Autolayout */,
+				B78CB5A228C80C1E00EFE3FC /* Combine */,
+			);
+			path = Demos;
+			sourceTree = "<group>";
+		};
+		B78CB5A228C80C1E00EFE3FC /* Combine */ = {
+			isa = PBXGroup;
+			children = (
+				B78CB5A328C80C4200EFE3FC /* CombineViewController.swift */,
+				B78CB5A528C80CA600EFE3FC /* CombineStoryboard.storyboard */,
+			);
+			path = Combine;
+			sourceTree = "<group>";
+		};
+		B78CB5A728C850E400EFE3FC /* Autolayout */ = {
+			isa = PBXGroup;
+			children = (
+				B78CB5A828C8513000EFE3FC /* WithouStoryBoardViewController.swift */,
+			);
+			path = Autolayout;
+			sourceTree = "<group>";
+		};
+		B793E86928D63E0300F1E611 /* UITextField */ = {
+			isa = PBXGroup;
+			children = (
+				B793E86A28D63E1F00F1E611 /* Combine */,
+			);
+			path = UITextField;
+			sourceTree = "<group>";
+		};
+		B793E86A28D63E1F00F1E611 /* Combine */ = {
+			isa = PBXGroup;
+			children = (
+				B793E86B28D63E5F00F1E611 /* TextFieldCombineViewController.swift */,
+				B793E86C28D63E5F00F1E611 /* TextFieldCombineViewController.xib */,
+			);
+			path = Combine;
+			sourceTree = "<group>";
+		};
+		B793E86F28D6427100F1E611 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B793E87028D6428400F1E611 /* UIButton.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B7BF834228FE35B800AEEDDE /* UIStackView */ = {
+			isa = PBXGroup;
+			children = (
+				B7BF834328FE35EA00AEEDDE /* StackViewViewController.swift */,
+			);
+			path = UIStackView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +179,9 @@
 			dependencies = (
 			);
 			name = iOsdemos;
+			packageProductDependencies = (
+				B787355A28C7AAEA00EEED13 /* Alamofire */,
+			);
 			productName = iOsdemos;
 			productReference = B787354228C7A81400EEED13 /* iOsdemos.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +210,9 @@
 				Base,
 			);
 			mainGroup = B787353928C7A81400EEED13;
+			packageReferences = (
+				B787355928C7AAEA00EEED13 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = B787354328C7A81400EEED13 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,7 +227,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B793E86E28D63E5F00F1E611 /* TextFieldCombineViewController.xib in Resources */,
 				B787355228C7A81600EEED13 /* LaunchScreen.storyboard in Resources */,
+				B78CB5A628C80CA600EFE3FC /* CombineStoryboard.storyboard in Resources */,
 				B787354F28C7A81600EEED13 /* Assets.xcassets in Resources */,
 				B787354D28C7A81400EEED13 /* Main.storyboard in Resources */,
 			);
@@ -138,9 +242,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7BF834428FE35EA00AEEDDE /* StackViewViewController.swift in Sources */,
 				B787354A28C7A81400EEED13 /* ViewController.swift in Sources */,
 				B787354628C7A81400EEED13 /* AppDelegate.swift in Sources */,
 				B787354828C7A81400EEED13 /* SceneDelegate.swift in Sources */,
+				B787356228C7CCFE00EEED13 /* CombineRestManager.swift in Sources */,
+				B78CB5A428C80C4200EFE3FC /* CombineViewController.swift in Sources */,
+				B793E87128D6428400F1E611 /* UIButton.swift in Sources */,
+				B787355E28C7B0B400EEED13 /* Coder.swift in Sources */,
+				B793E86D28D63E5F00F1E611 /* TextFieldCombineViewController.swift in Sources */,
+				B787356028C7B0E000EEED13 /* RestManager.swift in Sources */,
+				B78CB5A928C8513000EFE3FC /* WithouStoryBoardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +470,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B787355928C7AAEA00EEED13 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B787355A28C7AAEA00EEED13 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B787355928C7AAEA00EEED13 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B787353A28C7A81400EEED13 /* Project object */;
 }
