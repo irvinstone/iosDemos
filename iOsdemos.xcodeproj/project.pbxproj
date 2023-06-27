@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B75C279F291DD35400C84767 /* EmptyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75C279E291DD35400C84767 /* EmptyViewController.swift */; };
+		B76477AE2A4A5FF600E26F7D /* AsyncViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76477AD2A4A5FF600E26F7D /* AsyncViewController.swift */; };
 		B787354628C7A81400EEED13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B787354528C7A81400EEED13 /* AppDelegate.swift */; };
 		B787354828C7A81400EEED13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B787354728C7A81400EEED13 /* SceneDelegate.swift */; };
 		B787354A28C7A81400EEED13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B787354928C7A81400EEED13 /* ViewController.swift */; };
@@ -23,10 +25,13 @@
 		B793E86D28D63E5F00F1E611 /* TextFieldCombineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B793E86B28D63E5F00F1E611 /* TextFieldCombineViewController.swift */; };
 		B793E86E28D63E5F00F1E611 /* TextFieldCombineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B793E86C28D63E5F00F1E611 /* TextFieldCombineViewController.xib */; };
 		B793E87128D6428400F1E611 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B793E87028D6428400F1E611 /* UIButton.swift */; };
+		B7A2227629D7AD6500B821A1 /* cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A2227529D7AD6500B821A1 /* cell.swift */; };
 		B7BF834428FE35EA00AEEDDE /* StackViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BF834328FE35EA00AEEDDE /* StackViewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B75C279E291DD35400C84767 /* EmptyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyViewController.swift; sourceTree = "<group>"; };
+		B76477AD2A4A5FF600E26F7D /* AsyncViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncViewController.swift; sourceTree = "<group>"; };
 		B787354228C7A81400EEED13 /* iOsdemos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOsdemos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B787354528C7A81400EEED13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B787354728C7A81400EEED13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,6 +49,7 @@
 		B793E86B28D63E5F00F1E611 /* TextFieldCombineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCombineViewController.swift; sourceTree = "<group>"; };
 		B793E86C28D63E5F00F1E611 /* TextFieldCombineViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextFieldCombineViewController.xib; sourceTree = "<group>"; };
 		B793E87028D6428400F1E611 /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		B7A2227529D7AD6500B821A1 /* cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cell.swift; sourceTree = "<group>"; };
 		B7BF834328FE35EA00AEEDDE /* StackViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -59,6 +65,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B75C279D291DD31C00C84767 /* Empty */ = {
+			isa = PBXGroup;
+			children = (
+				B75C279E291DD35400C84767 /* EmptyViewController.swift */,
+			);
+			path = Empty;
+			sourceTree = "<group>";
+		};
+		B76477AC2A4A5FCD00E26F7D /* ASync */ = {
+			isa = PBXGroup;
+			children = (
+				B76477AD2A4A5FF600E26F7D /* AsyncViewController.swift */,
+			);
+			path = ASync;
+			sourceTree = "<group>";
+		};
 		B787353928C7A81400EEED13 = {
 			isa = PBXGroup;
 			children = (
@@ -105,10 +127,12 @@
 		B78CB5A128C80C1500EFE3FC /* Demos */ = {
 			isa = PBXGroup;
 			children = (
+				B76477AC2A4A5FCD00E26F7D /* ASync */,
 				B7BF834228FE35B800AEEDDE /* UIStackView */,
 				B793E86928D63E0300F1E611 /* UITextField */,
 				B78CB5A728C850E400EFE3FC /* Autolayout */,
 				B78CB5A228C80C1E00EFE3FC /* Combine */,
+				B75C279D291DD31C00C84767 /* Empty */,
 			);
 			path = Demos;
 			sourceTree = "<group>";
@@ -151,6 +175,7 @@
 			isa = PBXGroup;
 			children = (
 				B793E87028D6428400F1E611 /* UIButton.swift */,
+				B7A2227529D7AD6500B821A1 /* cell.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -244,10 +269,13 @@
 			files = (
 				B7BF834428FE35EA00AEEDDE /* StackViewViewController.swift in Sources */,
 				B787354A28C7A81400EEED13 /* ViewController.swift in Sources */,
+				B7A2227629D7AD6500B821A1 /* cell.swift in Sources */,
+				B76477AE2A4A5FF600E26F7D /* AsyncViewController.swift in Sources */,
 				B787354628C7A81400EEED13 /* AppDelegate.swift in Sources */,
 				B787354828C7A81400EEED13 /* SceneDelegate.swift in Sources */,
 				B787356228C7CCFE00EEED13 /* CombineRestManager.swift in Sources */,
 				B78CB5A428C80C4200EFE3FC /* CombineViewController.swift in Sources */,
+				B75C279F291DD35400C84767 /* EmptyViewController.swift in Sources */,
 				B793E87128D6428400F1E611 /* UIButton.swift in Sources */,
 				B787355E28C7B0B400EEED13 /* Coder.swift in Sources */,
 				B793E86D28D63E5F00F1E611 /* TextFieldCombineViewController.swift in Sources */,
